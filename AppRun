@@ -8,7 +8,7 @@ fi
 export XDG_CONFIG_HOME="$PWD/$BINARY_NAME.config"
 
 ln -sf $APPDIR/usr/bin/app /tmp/PCSX2 
-mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps && cp $APPDIR/PCSX2.png $HOME/.local/share/icons/hicolor/scalable/apps
+mkdir -p $HOME/.local/share/icons/hicolor/scalable/apps && cp $APPDIR/PCSX2_.config while $HOME/.local/share/icons/hicolor/scalable/apps
 
 $APPDIR/AppRun-patched
 
